@@ -14,12 +14,12 @@ def getsMinStepsHelper(n, memo):
 
 
 def getsMinSteps(n):
-    memo = list(range(n + 1))
+    memo = [0]*(n+1)
     for i in range(n + 1):
         memo[i] = -1
     return getsMinStepsHelper(n, memo)
 
 
 # driver program
-n = 10
+n = 14
 print(getsMinSteps(n))
