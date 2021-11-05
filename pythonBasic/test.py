@@ -8,3 +8,6 @@ print(course[0:3])  # prints Pyt
 print(course[:])  # repeats the string again
 print(course[:3])  # default it takes the 0
 print(course[0:])  # default it takes to the end of the string
+
+result=range(11)
+print(list(result))
